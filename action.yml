@@ -5,6 +5,10 @@ inputs:
   myInput:
     description: 'Input to use'
     default: 'world'
+outputs:
+  myOutput:
+    description: 'Output to set'
+    default: 'world'
 runs:
   using: 'node12'
   main: 'lib/main.js'
